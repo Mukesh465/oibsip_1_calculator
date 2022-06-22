@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+<script language="javascript" src="main.js">
+</script>
+ <form name="f1">
+
+     <h1 style="text-align:center; color:rgba(15, 41, 241, 0.589)">Basic Calculator</h1>
+
+ <table  style="margin:20px auto" border="2"; font-weight:bold; color:blue cellspacing="10" cellpadding="2">
+
+ <tr><td colspan="5px">    
+     <input type="text" name="t1" value="0" size="30"></tr>
+ <tr><td>   
+      <input type="button"  value=" 1 " onclick="num(1)">
+ <td>
+     <input type="button" value=" 2 " onclick="num(2)">
+ <td>
+     <input type="button" value=" 3 " onclick="num(3)">
+ <td>
+     <input type="button" value=" + " onclick="op(1)">
+ </tr>
+ <tr>
+ <td width="10px" ><input type="button" value=" 4 " onclick="num(4)">
+ <td width="10px"><input type="button" value=" 5 " onclick="num(5)">
+ <td width="10px"><input type="button" value=" 6 " onclick="num(6)">
+ <td width="10px"><input type="button" value=" - " onclick="op(2)">
+ </tr>
+ <tr>
+ <td width="10px"><input type="button" value=" 7 " onclick="num(7)">
+ <td width="10px"><input type="button" value=" 8 " onclick="num(8)" >
+ <td width="10px"><input type="button" value=" 9 " onclick="num(9)">
+ <td width="10px"><input type="button" value=" * " onclick="op(3)">
+ </tr>
+ <tr>
+ <td width="10px"><input type="button" value=" / " onclick="op(4)">
+ <td width="10px"><input type="button" value=" 0 " onclick="num(0)">
+ <td width="10px"><input type="button" value=" % " onclick="op(5)">
+ <td width="10px"><input type="button" value=" = " onclick="eq()">
+ </tr>
+ <tr>
+ <td colspan="3">
+ <input type="Reset" value=" Clear " onclick="Reset" style="width:100%" ><td>
+ <input type="button" value=" Del " onclick="mod()" style="width:100%">
+ <!-- <td colspan="2"> -->
+ <!-- <input type="button" value="." >
+ <input type="button" value=" Enter " onclick="enter()"> -->
+ <!-- </td> -->
+ </tr>
+ </table>
+ </form>
+</body>
+</html>
